@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600&display=swap");
+
+* {
+  font-family: "Cinzel", serif;
+}
+
+.app-layout {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 720px;
+}
+
+.LeftSide {
+  height: 720px;
+  background-color: antiquewhite;
+  width: 800px;
+  color: white;
+  margin: 0;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.RightSide {
+  flex: 1;
+  color: #333;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  background-color: #f9f0dcc1;
+  height: 720px;
+}
+
+.Lheader {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+  padding: 0 30px;
+  border-bottom: 3px solid;
+  height: 80px;
+  border-image-source: linear-gradient(to right, #ff7e5f, #feb47b);
+  border-image-slice: 1;
+  background: linear-gradient(to right, #5b3b1e, #754b2a);
+}
+.Rheader {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+  padding: 0 30px;
+  border-bottom: 3px solid;
+  height: 80px;
+  border-image-source: linear-gradient(to right, #feb47b, #ff7e5f);
+  border-image-slice: 1;
+  background: linear-gradient(to right, #754b2a, #5b3b1e);
+}
+
+.title-group {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.kz-flag {
+  height: 48px;
+  object-fit: contain;
+  border-radius: 7px;
+  border: #f6e544 solid 1px;
+}
+
+.KZUN {
+  color: whitesmoke;
+  margin: 0;
+  font-size: 26px;
+  line-height: 1.2;
+}
+
+.KZLN {
+  color: #d39f17;
+  margin: 4px 0 0 0;
+  font-size: 14px;
+  line-height: 1;
+  font-weight: bold;
+}
+.KZURN {
+  color: #d39f17;
+  margin: 4px 0 0 0;
+  font-size: 18px;
+  line-height: 1;
+  font-weight: bold;
+}
+
+.KZLRN {
+  color: #a98b67;
+  font-size: 13px;
+}
+.L40 {
+  margin-left: 40px;
+}
+.L10 {
+  margin-left: 10px;
+}
+.L6 {
+  margin-left: 6px;
+}
+.tg2 {
+  margin-left: 25px;
+}
+.App-map-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+}

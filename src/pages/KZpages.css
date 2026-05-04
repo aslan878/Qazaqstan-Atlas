@@ -1,0 +1,60 @@
+.KZimg {
+  width: 400px;
+}
+.KZgenerally {
+  border-left: 3px solid;
+  border-image-source: linear-gradient(to right, #feb47b, #ff7e5f);
+  border-image-slice: 1;
+  height: 88.5%;
+  overflow: auto;
+}
+.NameImg {
+  background-image:
+    linear-gradient(to bottom, transparent 30%, rgba(0, 0, 0, 0.75) 100%),
+    url("https://habrastorage.org/r/w1560/getpro/habr/upload_files/6b4/5ef/293/6b45ef293f4dc6d674bc6484651366b4.png");
+  height: 250px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.oa {
+  overflow: auto;
+}
+.UTN {
+  margin-top: auto;
+  text-shadow: h-shadow v-shadow blur-radius color 2px;
+  margin-left: 10px;
+}
+.UTN2 {
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+.datas {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-left: 23px;
+  margin-top: 20px;
+}
+.NK {
+  color: #9b2d12;
+  margin-top: -20px;
+}
+.KF {
+  margin-top: 20px;
+}
+.Line1 {
+  color: rgba(255, 255, 255, 0);
+  height: 1px;
+  background-image: linear-gradient(to right, #c7867569, #9b2d12);
+  margin-left: 50px;
+}
+.MiniF {
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 20px;
+  border-bottom: #feb47b 1px solid;
+  font-size: 15px;
+}
+.buttum {
+  margin-bottom: 20px;
+}
